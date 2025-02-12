@@ -50,7 +50,7 @@ This AI system ensures accuracy, reliability, and human oversight, making it ide
 
 🏗️ Architecture
 
-
+```mermaid
 graph TD;
 
   A[User Query] -->|Passes through| B[AI Agent];
@@ -84,7 +84,7 @@ graph TD;
   
   
   D --> J;
-
+```
 
 This architecture ensures the AI efficiently handles queries while seeking human assistance when necessary.
 
