@@ -1,8 +1,7 @@
-🤖 Human-in-the-Loop AI Agent with Tavily, Groq Cloud, and Memory
-
+**🤖 Human-in-the-Loop AI Agent with Tavily, Groq Cloud, and Memory**
 
 🚀 Overview
-
+---
 
 This repository contains a Human-in-the-Loop (HITL) AI Agent that intelligently combines LLM-powered automation with human intervention for enhanced decision-making.
 
@@ -27,7 +26,7 @@ This AI system ensures accuracy, reliability, and human oversight, making it ide
 
 
 ✨ Features
-
+---
 
 ✅ Retrieval-Augmented Generation (RAG) using Tavily Search API
 
@@ -49,6 +48,7 @@ This AI system ensures accuracy, reliability, and human oversight, making it ide
 
 
 🏗️ Architecture
+---
 
 ```mermaid
 graph TD;
@@ -91,43 +91,39 @@ This architecture ensures the AI efficiently handles queries while seeking human
 
 
 ⚙️ Installation & Setup
-
+---
 
 1️⃣ Clone the Repository
 
-
+```
 git clone https://github.com/yourusername/hitl-ai-agent.git
-
-
 cd hitl-ai-agent
-
+```
 
 2️⃣ Install Dependencies
 
-
-pip install -r requirements.txt
-
+```
+pip` install -r requirements.txt
+```
 
 3️⃣ Set Up Environment Variables
 
 
 Create a .env file and add:
 
-
+```
 TAVILY_API_KEY=your_tavily_api_key
-
-
 GROQ_API_KEY=your_groq_api_key
-
+```
 
 4️⃣ Run the AI Agent
 
-
+```
 python main.py
-
+```
 
 🛠️ Usage
-
+---
 
 1️⃣ Start the Agent
 
@@ -178,7 +174,7 @@ The human expert can then review, modify, and approve the response.
 
 
 🏆 Why This Matters
-
+---
 
 This system bridges the gap between fully autonomous AI and human expertise, making it perfect for:
 
@@ -196,7 +192,7 @@ This system bridges the gap between fully autonomous AI and human expertise, mak
 
 
 🌟 Contributing
-
+---
 
 We welcome contributions! Feel free to fork this repo, make changes, and submit a PR.
 
@@ -214,13 +210,13 @@ Push and create a Pull Request
 
 
 📜 License
-
+---
 
 This project is licensed under the MIT License.
 
 
 💬 Contact
-
+---
 
 For any queries, feel free to reach out:
 
