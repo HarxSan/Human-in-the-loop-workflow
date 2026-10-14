@@ -21,14 +21,14 @@ Memory persistence to retain past interactions
 LangGraph for workflow automation
 
 
-This AI system ensures accuracy, reliability, and human oversight, making it ideal for critical applications such as research assistance, customer support, and AI-driven decision-making.
+This AI system adds human oversight to a web-search agent, for uses such as research assistance, customer support, and AI-driven decision-making.
 
 
 
 ✨ Features
 ---
 
-✅ Retrieval-Augmented Generation (RAG) using Tavily Search API
+✅ Web search with the Tavily Search API
 
 
 ✅ Human-in-the-Loop Decision Making for complex queries
@@ -86,7 +86,7 @@ graph TD;
   D --> J;
 ```
 
-This architecture ensures the AI efficiently handles queries while seeking human assistance when necessary.
+This architecture lets the AI handle queries and ask for human assistance when necessary.
 
 
 
@@ -96,14 +96,14 @@ This architecture ensures the AI efficiently handles queries while seeking human
 1️⃣ Clone the Repository
 
 ```
-git clone https://github.com/yourusername/hitl-ai-agent.git
-cd hitl-ai-agent
+git clone https://github.com/HarxSan/Human-in-the-loop-workflow.git
+cd Human-in-the-loop-workflow
 ```
 
 2️⃣ Install Dependencies
 
 ```
-pip` install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 3️⃣ Set Up Environment Variables
@@ -118,9 +118,7 @@ GROQ_API_KEY=your_groq_api_key
 
 4️⃣ Run the AI Agent
 
-```
-python main.py
-```
+Open `Human_in_the_loop_Workflow.ipynb` and run the cells.
 
 🛠️ Usage
 ---
@@ -170,13 +168,13 @@ When a complex query arises, the AI triggers:
 AI: I need human assistance to ensure accuracy. Please provide insights.
 
 
-The human expert can then review, modify, and approve the response.
+The person supplies the answer, and the model uses it in its reply.
 
 
 🏆 Why This Matters
 ---
 
-This system bridges the gap between fully autonomous AI and human expertise, making it perfect for:
+This system bridges the gap between fully autonomous AI and human expertise, for uses such as:
 
 
 🔬 Research Assistants
